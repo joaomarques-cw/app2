@@ -14,7 +14,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           username: joaofstn323
-          password: ${{ secrets.DOCKER_USERNAME }} # the var was set with the wrong name. 
+          password: ${{ secrets.DOCKER_PASSWORD }}
           repository: joaofstn323/app2
           tags: ${{ github.sha }}, latest
   
