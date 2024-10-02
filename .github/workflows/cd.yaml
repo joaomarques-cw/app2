@@ -17,7 +17,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: joaofstn323/app2
           tags: ${{ github.sha }}, latest
-  
+      - name: Print Docker Build Logs
+        run: docker images  
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
