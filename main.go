@@ -27,7 +27,7 @@ func makeGetRequest(url string) {
 		panic(err)
 	}
 
-	fmt.Println(string(body), time.Now())
+	fmt.Println(string(body), time.Now().Format("2006-01-02 15:04:05"))
 
 	defer resp.Body.Close()
 }
