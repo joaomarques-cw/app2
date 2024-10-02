@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
-namespace: teste-app2
+namespace: app2
 images:
 - name: app2
   newName: joaofstn323/app2

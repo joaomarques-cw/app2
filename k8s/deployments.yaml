@@ -1,13 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: meuapp2
-  namespace: teste-app2
+  name: app2
+  namespace: app2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: teste-app2
+      app: app2
   template:
     metadata:
       labels:
