@@ -9,4 +9,4 @@ spec:
     app: app2
   ports:
     - port: 80
-      targetPort: 8080 # Porta no contêiner que está escutando
+      targetPort: 8080

@@ -34,7 +34,7 @@ jobs:
       - name: update k8s
         run: |
           cd k8s
-          kustomize edit set image goapp=joaofstn323/app2:${{ github.sha }}
+          kustomize edit set image app2=joaofstn323/app2:${{ github.sha }}
           cat kustomization.yaml
 
       - name: commit
