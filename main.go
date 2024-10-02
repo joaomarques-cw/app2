@@ -9,7 +9,7 @@ import (
 
 func main() {
 	for {
-		makeGetRequest("http://10.103.170.46:9090/")
+		makeGetRequest("http://goapp.goapp.svc.cluster.local")
 		time.Sleep(3 * time.Second)
 	}
 }
