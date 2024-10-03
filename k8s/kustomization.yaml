@@ -7,4 +7,4 @@ namespace: app2
 images:
 - name: app2
   newName: joaofstn323/app2
-  newTag: 947de9c801949deda17be0d84a2d603d0d87b30d
+  newTag: 6164e085f376dafec1d5f2f5a1fcc4e1bfa7a093
